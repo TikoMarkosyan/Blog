@@ -1,0 +1,29 @@
+
+.header {
+    width: 100vw;
+    height: 50px;
+    border-bottom: 1px solid rgb(221 191 147);
+}
+.headerUl{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    margin-right: 26px;
+    padding: 0;
+
+}
+
+.headerLi {
+    display: inline;
+    margin-left: 20px;
+}
+.logo{
+    display: inline;
+    font-family: 'Libre Caslon Display', serif;
+}
+.headerA{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Libre Caslon Display', serif;
+}

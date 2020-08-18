@@ -1,0 +1,43 @@
+.loginForm{
+    text-align: center;
+    display: block;
+
+}
+.login{
+    display: block;
+    margin: auto;
+    height: 21px;
+    margin-top: 23px;
+    width: 500px;
+    border-radius: 7px;
+}
+.loginSubmit{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #e8d4b7;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    background-color: #474e5d;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight:400;
+    color:#ffff;
+    border-radius: 8px;
+    text-align:center;
+    transition: all 0.15s;
+}
+.loginSubmit:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+}
+.loginSubmit:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+    .loginSubmit{
+        display:block;
+        margin:0.4em auto;
+        }
+}

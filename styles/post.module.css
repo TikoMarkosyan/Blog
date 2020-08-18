@@ -1,0 +1,26 @@
+.center{
+    text-align: center;
+}
+.logo{
+    font-family: 'Libre Caslon Display', serif;
+}
+.textpost{
+    font-family: 'Libre Caslon Display', serif;
+}
+.fora{
+    text-decoration: none;
+}
+.forli{
+    list-style-type: none;
+}
+.heading{
+    text-align: center;
+    font-family: 'Libre Caslon Display', serif;
+}
+.forback{
+    text-decoration: none;
+    font-family: 'Libre Caslon Display', serif;
+    color: black;
+    font-size:18px;
+    font-weight: 700;
+}

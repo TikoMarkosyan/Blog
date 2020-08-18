@@ -1,0 +1,13 @@
+.background{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: #474e5d;
+    color: aliceblue;
+    width: 100vw;
+    height: 100px;
+}
+.text{
+    font-size: medium;
+    padding: 19px;
+}
