@@ -51,7 +51,7 @@ export default function ContactLayout(){
         <>
             <form className={styles.loginForm} onSubmit={formSubmit}>
 
-                <input type="email" className={styles.login} required="true" placeholder="Email"
+                <input type="email" className={styles.login}  name="firstName"  id="test" required="true" placeholder="Email"
                         onChange={handleEmail}/>
                 <input type="text" className={styles.login} required="true" placeholder="Name"
                    onChange={handleName}/>

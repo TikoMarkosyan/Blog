@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier \"**/*.+(js|json|css|)\" --write --check",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +26,8 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "cypress": "^5.0.0",
+    "eslint-plugin-cypress": "^2.11.1",
     "raw-loader": "^4.0.1"
   }
 }

@@ -1,3 +1,4 @@
+
 module.exports = {
     target: 'serverless',
     webpack: function (config) {
@@ -5,4 +6,5 @@ module.exports = {
         config.module.rules.push({test: /\.yml$/, use: 'raw-loader'})
         return config
     },
+
   }
